@@ -1,0 +1,138 @@
+/* Import Font agar lebih estetik */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #fff5f8;
+    font-family: 'Poppins', sans-serif;
+    color: #4a4a4a;
+}
+
+/* Sidebar dengan Gradien Pink Soft */
+.sidebar {
+    height: 100vh;
+    background: linear-gradient(180deg, #ffafbd 0%, #ffc3a0 100%);
+    color: white;
+    padding-top: 30px;
+    position: fixed;
+    width: 250px;
+    box-shadow: 4px 0 15px rgba(255, 175, 189, 0.3);
+}
+
+.sidebar h4 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px 25px;
+    margin: 8px 15px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.sidebar a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateX(10px);
+}
+
+/* Konten Utama */
+.main-content {
+    margin-left: 260px; /* Memberi ruang untuk sidebar */
+    padding: 40px;
+}
+
+/* Kartu Statistik & Form */
+.card {
+    border: none;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #ff6a95;
+    font-weight: 600;
+}
+
+/* Tombol Pink */
+.btn-pink {
+    background: #ff9a9e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-pink:hover {
+    background: #fecfef;
+    color: #ff6a95;
+    box-shadow: 0 5px 15px rgba(255, 154, 158, 0.4);
+}
+
+/* Styling Tabel */
+.table {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #ffafbd;
+    color: white;
+    border: none;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #fff0f3;
+}
+
+/* Badge Status */
+.badge-tersedia {
+    background-color: #74ebd5;
+    color: #2c3e50;
+}
+
+.badge-disewa {
+    background-color: #ff9a9e;
+    color: white;
+}
+.btn-outline-pink {
+    border: 2px solid #ff9a9e;
+    color: #ff9a9e;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-outline-pink:hover {
+    background-color: #ff9a9e;
+    color: white;
+}.btn-logout {
+    background-color: #e35d6a; /* Merah rose agar tetap senada dengan pink */
+    color: white !important;
+    padding: 12px;
+    border-radius: 12px; /* Membuat sudut kotak sedikit tumpul agar estetik */
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: 20px 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    border: none;
+}
+
+.btn-logout:hover {
+    background-color: #c82333; /* Merah lebih gelap saat kursor menempel */
+    transform: scale(1.02);
+}
